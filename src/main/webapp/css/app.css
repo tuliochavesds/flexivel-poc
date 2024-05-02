@@ -1,0 +1,14 @@
+@import 'home.css';
+
+.main-view {
+    box-shadow: none !important;
+    background: none !important;
+}
+
+.main-view.container-fluid {
+    padding: 0px !important;
+}
+
+.main-view-vertical {
+    margin-top: 0px !important;
+}
