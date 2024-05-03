@@ -108,6 +108,11 @@
     margin-top: 24px;
 }
 
+.home-container .box-graficos .box .grafico-container .legendas .legenda {
+    display: flex;
+    align-items: center;
+}
+
 .home-container .box-graficos .box .grafico-container .legendas .legenda .circulo {
     height: 20px;
     width: 20px;
@@ -117,6 +122,15 @@
 
 .home-container .box-graficos .box .grafico-container .legendas .legenda .circulo.ativo {
     background-color: #26991F;
+}
+
+.home-container .box-graficos .box .grafico-container .legendas .legenda .titulo {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 8px;
 }
 
 
