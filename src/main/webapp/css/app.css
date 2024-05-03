@@ -1,0 +1,63 @@
+@import 'home.css';
+
+
+.fill {
+    background: #FFFBFE !important;
+}
+
+.main-view {
+    box-shadow: none !important;
+    background: #FFFBFE !important;
+}
+
+.main-view.container-fluid {
+    padding: 0px !important;
+}
+
+.main-view-vertical {
+    margin-top: 0px !important;
+    margin-right: 32px !important;
+    margin-left: 135px !important;
+    width: calc(100vw - 170px) !important;
+}
+
+.crn-navigator-vertical {
+    width: 103px !important;
+    background: #FFFBFE !important;
+    border-right: 1px solid #D6DBE0;
+}
+
+.navbar {
+    background: #FFFBFE !important;
+    /* border-right: 1px solid #D6DBE0; */
+}
+
+.navbar-default #navbar .navbar-nav li a, .navbar-default #navbar2 .navbar-nav li a {
+    flex-direction: column !important;
+    color: #1C1B1F !important;
+}
+
+.crn-navigator-vertical>.navbar>.container-fluid>.navbar-collapse>.navbar-nav, .crn-navigator-vertical.navbar>.container-fluid>.navbar-collapse>.navbar-nav {
+    margin-left: 0px !important;
+}
+
+.navbar-default .navbar-nav a span {
+    margin-left: 0px !important;
+    margin-top: -20px !important;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #1C1B1F;
+}
+
+.navbar-brand>img {
+    height: 52px !important;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -20px !important;
+    margin-top: 16px !important;
+}
+

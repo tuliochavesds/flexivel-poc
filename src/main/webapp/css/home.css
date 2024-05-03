@@ -1,0 +1,196 @@
+.home-container .menu-superior {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-container .menu-superior .nome-saudacao {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 4px;
+}
+
+.home-container .menu-superior i {
+    color: #1C1B1E !important;
+}
+
+.home-container .box-indicacores-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 32px;
+    margin-top: 20px;
+}
+
+.home-container .box-indicacores-container .box {
+    height: 150px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home-container .box-indicacores-container .box .icone-titulo {
+    display: flex;
+    align-items: center;
+}
+
+.home-container .box-indicacores-container .box .icone-titulo .box-titulo {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #ACACAC;
+    margin-left: 6px;
+}
+
+.home-container .box-indicacores-container .box .valores {
+    display: flex;
+}
+
+.home-container .box-indicacores-container .box .valores .valor {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #333333;
+}
+
+.home-container .box-indicacores-container .box .valores .valor-unitario {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-container .box-indicacores-container .box .valores .valor-unitario:nth-child(2) {
+    margin-left: 32px;
+}
+
+.home-container .box-indicacores-container .box .valores .valor-unitario .valor-titulo {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #ACACAC;
+}
+
+.home-container .box-graficos {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
+
+.home-container .box-graficos .box {
+    height: 406px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 32px
+}
+
+.home-container .box-graficos .box .grafico-titulo {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.home-container .box-graficos .box .grafico-container {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.home-container .box-graficos .box .grafico-container .legendas {
+    margin-right: 52px;
+}
+
+.home-container .box-graficos .box .grafico-container .legendas .legenda {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.home-container .box-graficos .box .grafico-container .legendas .legenda .circulo {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.home-container .box-graficos .box .grafico-container .legendas .legenda .circulo.ativo {
+    background-color: #26991F;
+}
+.home-container .box-graficos .box .grafico-container .legendas .legenda .circulo.inativo {
+    background-color: #82BA4D;
+}
+.home-container .box-graficos .box .grafico-container .legendas .legenda .circulo.bloqueado {
+    background-color: #175806;
+}
+.home-container .box-graficos .box .grafico-container .legendas .legenda .circulo.prospect {
+    background-color: #20807B;
+}
+.home-container .box-graficos .box .grafico-container .legendas .legenda .circulo.orcamento {
+    background-color: #20807B;
+}
+.home-container .box-graficos .box .grafico-container .legendas .legenda .circulo.pedido {
+    background-color: #82BA4D;
+}
+.home-container .box-graficos .box .grafico-container .legendas .legenda .circulo.valor {
+    background-color: #26991F;
+}
+
+.home-container .box-graficos .box .grafico-container .legendas .legenda .titulo {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 8px;
+}
+
+.home-container .box-graficos .box .grafico-container .legendas .legendas-container {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.home-container .box-graficos .box .grafico-container .legendas .legendas-container .titulo-legendas {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.home-container .box-graficos .box .grafico-container .legendas .legendas-container .legenda .titulo-legenda {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    margin-left: 8px;
+}
+
+.home-container .box-graficos .box .grafico-container .legendas .legendas-container .legenda {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.home-container .box-tabela {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 32px;
+    border-radius: 20px;
+    padding: 0px
+}
+
+
+
+
