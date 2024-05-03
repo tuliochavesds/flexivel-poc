@@ -32,3 +32,9 @@
 .crn-navigator-vertical>.navbar>.container-fluid>.navbar-collapse>.navbar-nav, .crn-navigator-vertical.navbar>.container-fluid>.navbar-collapse>.navbar-nav {
     margin-left: 0px !important;
 }
+
+.navbar-default .navbar-nav a span {
+    margin-left: 0px !important;
+    margin-top: -20px !important;
+}
+
