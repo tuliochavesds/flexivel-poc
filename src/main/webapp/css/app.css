@@ -1,8 +1,13 @@
 @import 'home.css';
 
+
+.fill {
+    background: #FFFBFE !important;
+}
+
 .main-view {
     box-shadow: none !important;
-    background: none !important;
+    background: #FFFBFE !important;
 }
 
 .main-view.container-fluid {
