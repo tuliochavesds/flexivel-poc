@@ -53,6 +53,15 @@
     display: flex;
 }
 
+.home-container .box-indicacores-container .box .valores .valor {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #333333;
+}
+
 .home-container .box-indicacores-container .box .valores .valor-unitario {
     display: flex;
     flex-direction: column;
@@ -62,11 +71,19 @@
     margin-left: 32px;
 }
 
-.home-container .box-indicacores-container .box .valores .valor {
+.home-container .box-indicacores-container .box .valores .valor-unitario .valor-titulo {
     font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 100%;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
     letter-spacing: -0.01em;
-    color: #333333;
+    color: #ACACAC;
 }
+
+
+
+
+
+
+
+
