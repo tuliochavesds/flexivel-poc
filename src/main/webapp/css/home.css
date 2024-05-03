@@ -29,6 +29,14 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
     border-radius: 16px;
     padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home-container .box-indicacores-container .box .icone-titulo {
+    display: flex;
+    align-items: center;
 }
 
 .home-container .box-indicacores-container .box .icone-titulo .box-titulo {
@@ -39,4 +47,26 @@
     letter-spacing: -0.01em;
     color: #ACACAC;
     margin-left: 6px;
+}
+
+.home-container .box-indicacores-container .box .valores {
+    display: flex;
+}
+
+.home-container .box-indicacores-container .box .valores .valor-unitario {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-container .box-indicacores-container .box .valores .valor-unitario:nth-child(2) {
+    margin-left: 32px;
+}
+
+.home-container .box-indicacores-container .box .valores .valor {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #333333;
 }
