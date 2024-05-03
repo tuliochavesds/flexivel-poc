@@ -23,10 +23,18 @@
 
 .crn-navigator-vertical {
     width: 103px !important;
+    background: #FFFBFE !important;
+    border-right: 1px solid #D6DBE0;
+}
+
+.navbar {
+    background: #FFFBFE !important;
+    /* border-right: 1px solid #D6DBE0; */
 }
 
 .navbar-default #navbar .navbar-nav li a, .navbar-default #navbar2 .navbar-nav li a {
     flex-direction: column !important;
+    color: #1C1B1F !important;
 }
 
 .crn-navigator-vertical>.navbar>.container-fluid>.navbar-collapse>.navbar-nav, .crn-navigator-vertical.navbar>.container-fluid>.navbar-collapse>.navbar-nav {
@@ -37,4 +45,9 @@
     margin-left: 0px !important;
     margin-top: -20px !important;
 }
+
+.navbar-brand>img {
+    height: 42px !important;
+}
+
 
