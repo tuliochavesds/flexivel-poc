@@ -44,10 +44,20 @@
 .navbar-default .navbar-nav a span {
     margin-left: 0px !important;
     margin-top: -20px !important;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #1C1B1F;
 }
 
 .navbar-brand>img {
-    height: 42px !important;
+    height: 52px !important;
 }
 
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -20px !important;
+    margin-top: 16px !important;
+}
 
