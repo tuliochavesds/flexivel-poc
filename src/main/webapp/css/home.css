@@ -26,7 +26,7 @@
 
 .home-container .box-indicacores-container .box {
     height: 150px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
     padding: 16px 20px;
     display: flex;
@@ -80,7 +80,44 @@
     color: #ACACAC;
 }
 
+.home-container .box-graficos {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+}
 
+.home-container .box-graficos .box {
+    height: 406px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 32px
+}
+
+.home-container .box-graficos .box .grafico-titulo {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.home-container .box-graficos .box .grafico-container {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.home-container .box-graficos .box .grafico-container .legendas .legenda .circulo {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.home-container .box-graficos .box .grafico-container .legendas .legenda .circulo.ativo {
+    background-color: #26991F;
+}
 
 
 
