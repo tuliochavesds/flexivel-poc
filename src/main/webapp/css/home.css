@@ -108,9 +108,15 @@
     margin-top: 24px;
 }
 
+.home-container .box-graficos .box .grafico-container .legendas {
+    margin-right: 52px;
+}
+
 .home-container .box-graficos .box .grafico-container .legendas .legenda {
     display: flex;
     align-items: center;
+    margin-bottom: 12px;
+    margin-top: 12px;
 }
 
 .home-container .box-graficos .box .grafico-container .legendas .legenda .circulo {
@@ -123,6 +129,24 @@
 .home-container .box-graficos .box .grafico-container .legendas .legenda .circulo.ativo {
     background-color: #26991F;
 }
+.home-container .box-graficos .box .grafico-container .legendas .legenda .circulo.inativo {
+    background-color: #82BA4D;
+}
+.home-container .box-graficos .box .grafico-container .legendas .legenda .circulo.bloqueado {
+    background-color: #175806;
+}
+.home-container .box-graficos .box .grafico-container .legendas .legenda .circulo.prospect {
+    background-color: #20807B;
+}
+.home-container .box-graficos .box .grafico-container .legendas .legenda .circulo.orcamento {
+    background-color: #20807B;
+}
+.home-container .box-graficos .box .grafico-container .legendas .legenda .circulo.pedido {
+    background-color: #82BA4D;
+}
+.home-container .box-graficos .box .grafico-container .legendas .legenda .circulo.valor {
+    background-color: #26991F;
+}
 
 .home-container .box-graficos .box .grafico-container .legendas .legenda .titulo {
     font-family: 'Nunito';
@@ -131,6 +155,33 @@
     line-height: 20px;
     color: #000000;
     margin-left: 8px;
+}
+
+.home-container .box-graficos .box .grafico-container .legendas .legendas-container {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.home-container .box-graficos .box .grafico-container .legendas .legendas-container .titulo-legendas {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.home-container .box-graficos .box .grafico-container .legendas .legendas-container .legenda .titulo-legenda {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+    margin-left: 8px;
+}
+
+.home-container .box-graficos .box .grafico-container .legendas .legendas-container .legenda {
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 
