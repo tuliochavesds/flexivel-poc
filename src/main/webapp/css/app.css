@@ -16,4 +16,19 @@
 
 .main-view-vertical {
     margin-top: 0px !important;
+    margin-right: 32px !important;
+    margin-left: 135px !important;
+    width: calc(100vw - 170px) !important;
+}
+
+.crn-navigator-vertical {
+    width: 103px !important;
+}
+
+.navbar-default #navbar .navbar-nav li a, .navbar-default #navbar2 .navbar-nav li a {
+    flex-direction: column !important;
+}
+
+.crn-navigator-vertical>.navbar>.container-fluid>.navbar-collapse>.navbar-nav, .crn-navigator-vertical.navbar>.container-fluid>.navbar-collapse>.navbar-nav {
+    margin-left: 0px !important;
 }
