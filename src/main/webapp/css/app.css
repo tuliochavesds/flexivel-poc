@@ -89,7 +89,14 @@
     color: #202020 !important;
 }
 
+.k-editor, .k-grid, .k-menu, .k-scheduler, .k-grid-header:first-child, .k-grid-toolbar:first-child, .k-grid>.k-grouping-header, .k-grid-pager, .k-scheduler-footer, .k-scheduler>.k-scheduler-toolbar:first-child {
+    border-radius: 8px !important;
+}
 
+.k-grid .k-grid-header .k-header .k-checkbox-label:before {
+    border-color: #202020 !important;
+    color: #202020 !important;
+}
 
 
 
