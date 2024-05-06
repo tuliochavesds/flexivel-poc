@@ -61,3 +61,40 @@
     margin-top: 16px !important;
 }
 
+.crn-grid-title {
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    letter-spacing: 0.15px !important;
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.k-grid-toolbar .k-button {
+    background: #C6E1A0 !important;
+    color: #1C1B1F !important;
+    border-radius: 4px !important;
+}
+
+.k-grid-header th.k-header {
+    border: 1px solid #F6F6F6 !important;
+}
+
+.k-grid-header .k-header {
+    background: #F6F6F6 !important;
+}
+
+.k-grid-header th.k-header, .k-grid-header th.k-header .k-link, .k-grid-header th.k-header a, .k-grid-header th.k-header .k-icon, .k-grid-header th.k-header .k-tool-icon {
+    color: #202020 !important;
+}
+
+
+
+
+
+
+
+
+
+
