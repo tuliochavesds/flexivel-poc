@@ -103,13 +103,17 @@
 }
 
 .home-container .box-graficos .box .grafico-container {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     margin-top: 24px;
 }
 
 .home-container .box-graficos .box .grafico-container .legendas {
     margin-right: 52px;
+}
+
+.home-container .box-graficos .box .grafico-container .grafico {
+    width: 100%;
 }
 
 .home-container .box-graficos .box .grafico-container .legendas .legenda {
