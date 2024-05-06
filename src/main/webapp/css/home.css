@@ -103,13 +103,17 @@
 }
 
 .home-container .box-graficos .box .grafico-container {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     margin-top: 24px;
 }
 
 .home-container .box-graficos .box .grafico-container .legendas {
     margin-right: 52px;
+}
+
+.home-container .box-graficos .box .grafico-container .grafico {
+    width: 100%;
 }
 
 .home-container .box-graficos .box .grafico-container .legendas .legenda {
@@ -188,7 +192,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-top: 32px;
     border-radius: 20px;
-    padding: 0px
+    /* padding: 2px */
 }
 
 
